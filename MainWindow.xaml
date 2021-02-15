@@ -1,0 +1,59 @@
+﻿<Window x:Class="PeriodicTable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PeriodicTable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF464343">
+        <Button x:Name="hydrogenButton" Content="H" HorizontalAlignment="Left" Margin="40,90,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF2DB90D"/>
+        <Button x:Name="lithiumButton" Content="Li" HorizontalAlignment="Left" Margin="40,115,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FFD6850F"/>
+        <Button x:Name="sodiumButton" Content="Na" HorizontalAlignment="Left" Margin="40,140,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FFD6850F"/>
+        <Button x:Name="potassiumButton" Content="K" HorizontalAlignment="Left" Margin="40,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FFD6850F"/>
+        <Button x:Name="rubidiumButton" Content="Rb" HorizontalAlignment="Left" Margin="40,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FFD6850F"/>
+        <Button x:Name="caesiumButton" Content="Cs" HorizontalAlignment="Left" Margin="40,215,0,0" VerticalAlignment="Top" Width="25" Height="25" RenderTransformOrigin="0.506,0.522" Background="#FFD6850F"/>
+        <Button x:Name="franciumButton" Content="Fr" HorizontalAlignment="Left" Margin="40,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FFD6850F"/>
+        <Button x:Name="berylliumButton" Content="Be" HorizontalAlignment="Left" Margin="65,115,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF999208"/>
+        <Button x:Name="magnesiumButton" Content="Mg" HorizontalAlignment="Left" Margin="65,140,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF999208"/>
+        <Button x:Name="calciumButton" Content="Ca" HorizontalAlignment="Left" Margin="65,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF999208"/>
+        <Button x:Name="strontiumButton" Content="Sr" HorizontalAlignment="Left" Margin="65,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF999208"/>
+        <Button x:Name="bariumButton" Content="Ba" HorizontalAlignment="Left" Margin="65,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF999208"/>
+        <Button x:Name="radiumButton" Content="Ra" HorizontalAlignment="Left" Margin="65,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF999208"/>
+        <Button x:Name="scandiumButton" Content="Sc" HorizontalAlignment="Left" Margin="90,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="yttriumButton" Content="Y" HorizontalAlignment="Left" Margin="90,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="titaniumButton" Content="Ti" HorizontalAlignment="Left" Margin="115,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="zirconiumButton" Content="Zr" HorizontalAlignment="Left" Margin="115,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="hafniumButton" Content="Hf" HorizontalAlignment="Left" Margin="115,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="rutherfordiumButton" Content="Rf" HorizontalAlignment="Left" Margin="115,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="vanadiumButton" Content="V" HorizontalAlignment="Left" Margin="140,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="niobiumButton" Content="Nb" HorizontalAlignment="Left" Margin="140,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="tantalumButton" Content="Ta" HorizontalAlignment="Left" Margin="140,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="dubniumButton" Content="Db" HorizontalAlignment="Left" Margin="140,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="chromiumButton" Content="Cr" HorizontalAlignment="Left" Margin="165,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="molybdenumButton" Content="Mo" HorizontalAlignment="Left" Margin="165,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="tungstenButton" Content="W" HorizontalAlignment="Left" Margin="165,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="seaborgiumButton" Content="Sg" HorizontalAlignment="Left" Margin="165,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="manganeseButton" Content="Mn" HorizontalAlignment="Left" Margin="190,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="technetiumButton" Content="Tc" HorizontalAlignment="Left" Margin="190,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="rheniumButton" Content="Re" HorizontalAlignment="Left" Margin="190,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="bohriumButton" Content="Bh" HorizontalAlignment="Left" Margin="190,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="ironButton" Content="Fe" HorizontalAlignment="Left" Margin="215,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="rutheniumButton" Content="Ru" HorizontalAlignment="Left" Margin="215,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="osmiumButton" Content="Os" HorizontalAlignment="Left" Margin="215,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="hassiumButton" Content="Hs" HorizontalAlignment="Left" Margin="215,240,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="cobaltButton" Content="Co" HorizontalAlignment="Left" Margin="240,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="rhodiumButton" Content="Rh" HorizontalAlignment="Left" Margin="240,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="iridiumButton" Content="Ir" HorizontalAlignment="Left" Margin="240,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="nickelButton" Content="Ni" HorizontalAlignment="Left" Margin="265,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="palladiumButton" Content="Pd" HorizontalAlignment="Left" Margin="265,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="platinumButton" Content="Pt" HorizontalAlignment="Left" Margin="265,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="copperButton" Content="Cu" HorizontalAlignment="Left" Margin="290,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="silverButton" Content="Ag" HorizontalAlignment="Left" Margin="290,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="goldButton" Content="Au" HorizontalAlignment="Left" Margin="290,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="zincButton" Content="Zn" HorizontalAlignment="Left" Margin="315,165,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="cadmiumButton" Content="Cd" HorizontalAlignment="Left" Margin="315,190,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+        <Button x:Name="mercuryButton" Content="Hg" HorizontalAlignment="Left" Margin="315,215,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="#FF6E1818"/>
+
+    </Grid>
+</Window>
